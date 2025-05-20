@@ -149,8 +149,7 @@ $("btn").onclick = function () {
     ifp(n8, "Reimbursable for the Final design phase: ") +
     ifp(n10, "CSS for Final design phase: ") +
     "Final design phase not-to-exceed amount: (" +
-    f(n6) +
-    f(n7) +
+    f(n6 + n7) +
     " + " +
     f(n8) +
     " + " +

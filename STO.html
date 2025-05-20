@@ -318,7 +318,7 @@
 
      <div class="align">
             <label for="NTP_date"
-              >Notice to Proceed (NTP date)<span>*</span>:</label
+              >Notice to Proceed (NTP date):</label
             >
             <input
               type="date"
@@ -330,7 +330,7 @@
 
     <div class="align">
             <label for="current_end_date"
-              >Previous End date (including all extensions)<span>*</span>:</label
+              >Previous End date (including all extensions):</label
             >
             <input
               type="date"
@@ -340,17 +340,19 @@
             />
   </div> 
 
- <!-- <div class="align">
-<label for="time_extension">Time extension requested?</label>
-<select id="time_extension" name="time_extension">
+   <div class="align">
+<label for="time_extension">Is a time extension requested?</label>
+<select id="time_extension_" name="time_extension">
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select>
-</div> -->
+</div>
+
+<!-- <p>Is a time extension requested?</p> -->
 
   <div class="align">
             <label for="time_extension"
-              >Time extension requested for (CCDs)<span>*</span>:</label
+              >Time extension requested (CCDs):</label
             >
             <input
               type="number"
@@ -603,6 +605,10 @@
         </div><!-- End of row2-->
       </div>
           <footer>&copy; This app is designed and developed by Md E. Hoque</footer>
-      <script src="Scripts_STO.js"></script>
+      <script src="./util1.js"></script>
+      <script src="./Scripts_STO.js"></script>
+      <script src="./formatAccounting.js"></script>
+
+
 </body>
 </html>
